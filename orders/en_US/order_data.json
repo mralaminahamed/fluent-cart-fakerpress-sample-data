@@ -1,0 +1,126 @@
+{
+  "payment_methods": [
+    {
+      "method": "stripe",
+      "name": "Credit Card (Stripe)",
+      "weight": 0.5
+    },
+    {
+      "method": "paypal",
+      "name": "PayPal",
+      "weight": 0.25
+    },
+    {
+      "method": "cod",
+      "name": "Cash on Delivery",
+      "weight": 0.15
+    },
+    {
+      "method": "bank_transfer",
+      "name": "Bank Transfer",
+      "weight": 0.08
+    },
+    {
+      "method": "check",
+      "name": "Check Payment",
+      "weight": 0.02
+    }
+  ],
+  "order_statuses": [
+    {
+      "status": "completed",
+      "name": "Completed",
+      "weight": 0.6
+    },
+    {
+      "status": "processing",
+      "name": "Processing",
+      "weight": 0.25
+    },
+    {
+      "status": "pending",
+      "name": "Pending Payment",
+      "weight": 0.1
+    },
+    {
+      "status": "cancelled",
+      "name": "Cancelled",
+      "weight": 0.03
+    },
+    {
+      "status": "refunded",
+      "name": "Refunded",
+      "weight": 0.02
+    }
+  ],
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US Dollar",
+      "symbol": "$",
+      "weight": 0.7
+    },
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€",
+      "weight": 0.2
+    },
+    {
+      "code": "GBP",
+      "name": "British Pound",
+      "symbol": "£",
+      "weight": 0.08
+    },
+    {
+      "code": "CAD",
+      "name": "Canadian Dollar",
+      "symbol": "C$",
+      "weight": 0.02
+    }
+  ],
+  "tax_rates": [
+    {
+      "rate": 0.08,
+      "name": "Standard Tax (8%)",
+      "weight": 0.6
+    },
+    {
+      "rate": 0.10,
+      "name": "Higher Tax (10%)",
+      "weight": 0.25
+    },
+    {
+      "rate": 0.06,
+      "name": "Reduced Tax (6%)",
+      "weight": 0.1
+    },
+    {
+      "rate": 0.00,
+      "name": "Tax Exempt (0%)",
+      "weight": 0.05
+    }
+  ],
+  "shipping_costs": [
+    {
+      "min": 0.00,
+      "max": 9.99,
+      "weight": 0.3
+    },
+    {
+      "min": 10.00,
+      "max": 19.99,
+      "weight": 0.4
+    },
+    {
+      "min": 20.00,
+      "max": 49.99,
+      "weight": 0.25
+    },
+    {
+      "min": 50.00,
+      "max": 99.99,
+      "weight": 0.05
+    }
+  ]
+}

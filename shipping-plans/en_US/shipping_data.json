@@ -1,0 +1,138 @@
+{
+  "shipping_types": [
+    {
+      "type": "flat_rate",
+      "name": "Flat Rate",
+      "weight": 0.5,
+      "cost_ranges": {
+        "min": 5.99,
+        "max": 29.99
+      }
+    },
+    {
+      "type": "free_shipping",
+      "name": "Free Shipping",
+      "weight": 0.25,
+      "cost_ranges": {
+        "min": 0.00,
+        "max": 0.00
+      }
+    },
+    {
+      "type": "local_pickup",
+      "name": "Local Pickup",
+      "weight": 0.15,
+      "cost_ranges": {
+        "min": 0.00,
+        "max": 0.00
+      }
+    },
+    {
+      "type": "weight_based",
+      "name": "Weight Based",
+      "weight": 0.08,
+      "cost_ranges": {
+        "min": 8.99,
+        "max": 49.99
+      }
+    },
+    {
+      "type": "price_based",
+      "name": "Price Based",
+      "weight": 0.02,
+      "cost_ranges": {
+        "min": 0.00,
+        "max": 0.00
+      }
+    }
+  ],
+  "delivery_timeframes": [
+    {
+      "name": "Same Day",
+      "min_days": 0,
+      "max_days": 0,
+      "weight": 0.1
+    },
+    {
+      "name": "Next Day",
+      "min_days": 1,
+      "max_days": 1,
+      "weight": 0.2
+    },
+    {
+      "name": "2-3 Days",
+      "min_days": 2,
+      "max_days": 3,
+      "weight": 0.4
+    },
+    {
+      "name": "3-5 Days",
+      "min_days": 3,
+      "max_days": 5,
+      "weight": 0.2
+    },
+    {
+      "name": "1-2 Weeks",
+      "min_days": 7,
+      "max_days": 14,
+      "weight": 0.08
+    },
+    {
+      "name": "2-4 Weeks",
+      "min_days": 14,
+      "max_days": 28,
+      "weight": 0.02
+    }
+  ],
+  "coverage_areas": [
+    {
+      "area": "domestic",
+      "name": "Domestic Shipping",
+      "weight": 0.7
+    },
+    {
+      "area": "international",
+      "name": "International Shipping",
+      "weight": 0.25
+    },
+    {
+      "area": "regional",
+      "name": "Regional Shipping",
+      "weight": 0.04
+    },
+    {
+      "area": "worldwide",
+      "name": "Worldwide Shipping",
+      "weight": 0.01
+    }
+  ],
+  "shipping_names": [
+    "Standard Shipping",
+    "Express Delivery",
+    "Overnight Shipping",
+    "Economy Shipping",
+    "Priority Mail",
+    "Ground Shipping",
+    "Air Freight",
+    "Sea Freight",
+    "Local Delivery",
+    "Same-Day Pickup",
+    "White Glove Service",
+    "Expedited Shipping",
+    "Bulk Shipping",
+    "Fragile Item Shipping",
+    "Heavy Item Shipping"
+  ],
+  "descriptions": [
+    "Reliable and affordable shipping option",
+    "Fast delivery for urgent orders",
+    "Cost-effective shipping for larger items",
+    "Premium service with tracking included",
+    "Eco-friendly shipping options available",
+    "Secure packaging for fragile items",
+    "Flexible delivery scheduling",
+    "Real-time tracking and updates",
+    "Door-to-door delivery service",
+    "Pickup available at local stores"
+  ]
+}

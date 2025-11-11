@@ -1,0 +1,62 @@
+{
+  "coupon_types": [
+    {
+      "type": "percentage",
+      "name": "Percentage Discount",
+      "weight": 0.6,
+      "min_discount": 5,
+      "max_discount": 50
+    },
+    {
+      "type": "fixed_amount",
+      "name": "Fixed Amount Discount",
+      "weight": 0.3,
+      "min_discount": 5.00,
+      "max_discount": 100.00
+    },
+    {
+      "type": "free_shipping",
+      "name": "Free Shipping",
+      "weight": 0.1,
+      "min_discount": 0,
+      "max_discount": 0
+    }
+  ],
+  "code_patterns": [
+    "SAVE###",
+    "DISCOUNT###",
+    "OFFER###",
+    "DEAL###",
+    "PROMO###",
+    "SALE###",
+    "COUPON###",
+    "VOUCHER###"
+  ],
+  "usage_limits": [
+    {
+      "min": 10,
+      "max": 100,
+      "weight": 0.4
+    },
+    {
+      "min": 100,
+      "max": 500,
+      "weight": 0.4
+    },
+    {
+      "min": 500,
+      "max": 1000,
+      "weight": 0.2
+    }
+  ],
+  "descriptions": [
+    "Limited time offer - save big on your purchase!",
+    "Exclusive discount for valued customers",
+    "Special promotional code for online orders",
+    "Flash sale discount - don't miss out!",
+    "Seasonal promotion - limited availability",
+    "Loyalty reward for repeat customers",
+    "Clearance sale - final reductions",
+    "Bundle deal - save when you buy together"
+  ]
+}

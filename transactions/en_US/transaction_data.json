@@ -1,0 +1,109 @@
+{
+  "payment_statuses": [
+    {
+      "status": "completed",
+      "name": "Completed",
+      "weight": 0.85
+    },
+    {
+      "status": "pending",
+      "name": "Pending",
+      "weight": 0.08
+    },
+    {
+      "status": "failed",
+      "name": "Failed",
+      "weight": 0.05
+    },
+    {
+      "status": "cancelled",
+      "name": "Cancelled",
+      "weight": 0.02
+    }
+  ],
+  "transaction_types": [
+    {
+      "type": "charge",
+      "name": "Payment Charge",
+      "weight": 0.9
+    },
+    {
+      "type": "refund",
+      "name": "Refund",
+      "weight": 0.08
+    },
+    {
+      "type": "partial_refund",
+      "name": "Partial Refund",
+      "weight": 0.02
+    }
+  ],
+  "payment_gateways": [
+    {
+      "gateway": "stripe",
+      "name": "Stripe",
+      "weight": 0.5
+    },
+    {
+      "gateway": "paypal",
+      "name": "PayPal",
+      "weight": 0.3
+    },
+    {
+      "gateway": "cod",
+      "name": "Cash on Delivery",
+      "weight": 0.15
+    },
+    {
+      "gateway": "bank_transfer",
+      "name": "Bank Transfer",
+      "weight": 0.05
+    }
+  ],
+  "transaction_amounts": [
+    {
+      "min": 1.00,
+      "max": 49.99,
+      "weight": 0.3
+    },
+    {
+      "min": 50.00,
+      "max": 199.99,
+      "weight": 0.4
+    },
+    {
+      "min": 200.00,
+      "max": 999.99,
+      "weight": 0.25
+    },
+    {
+      "min": 1000.00,
+      "max": 5000.00,
+      "weight": 0.05
+    }
+  ],
+  "transaction_descriptions": [
+    "Payment for order",
+    "Online purchase payment",
+    "E-commerce transaction",
+    "Product purchase",
+    "Service payment",
+    "Digital goods purchase",
+    "Subscription payment",
+    "One-time purchase",
+    "Bulk order payment",
+    "Express checkout payment"
+  ],
+  "failure_reasons": [
+    "Insufficient funds",
+    "Card declined",
+    "Expired card",
+    "Invalid card number",
+    "Card blocked",
+    "Transaction timeout",
+    "Gateway error",
+    "Fraud detected",
+    "Address verification failed",
+    "CVV mismatch"
+  ]
+}

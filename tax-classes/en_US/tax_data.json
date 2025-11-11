@@ -1,0 +1,91 @@
+{
+  "tax_rates": [
+    {
+      "rate": 0.00,
+      "name": "Tax Exempt",
+      "description": "No tax applied",
+      "weight": 0.05
+    },
+    {
+      "rate": 0.05,
+      "name": "Reduced Rate (5%)",
+      "description": "Reduced tax rate for essential goods",
+      "weight": 0.1
+    },
+    {
+      "rate": 0.08,
+      "name": "Standard Rate (8%)",
+      "description": "Standard tax rate for most goods",
+      "weight": 0.6
+    },
+    {
+      "rate": 0.10,
+      "name": "Higher Rate (10%)",
+      "description": "Higher tax rate for luxury goods",
+      "weight": 0.2
+    },
+    {
+      "rate": 0.12,
+      "name": "Premium Rate (12%)",
+      "description": "Premium tax rate for high-end products",
+      "weight": 0.03
+    },
+    {
+      "rate": 0.20,
+      "name": "Super Rate (20%)",
+      "description": "Super tax rate for luxury items",
+      "weight": 0.02
+    }
+  ],
+  "tax_categories": [
+    {
+      "name": "Standard Goods",
+      "description": "Regular taxable goods and services",
+      "weight": 0.7
+    },
+    {
+      "name": "Food & Beverages",
+      "description": "Food items and beverages",
+      "weight": 0.1
+    },
+    {
+      "name": "Books & Educational",
+      "description": "Books, magazines, and educational materials",
+      "weight": 0.05
+    },
+    {
+      "name": "Medical Supplies",
+      "description": "Medical equipment and supplies",
+      "weight": 0.03
+    },
+    {
+      "name": "Digital Goods",
+      "description": "Software, e-books, and digital downloads",
+      "weight": 0.08
+    },
+    {
+      "name": "Luxury Items",
+      "description": "High-end luxury goods and jewelry",
+      "weight": 0.02
+    },
+    {
+      "name": "Essential Services",
+      "description": "Essential services like utilities",
+      "weight": 0.02
+    }
+  ],
+  "tax_names": [
+    "Sales Tax",
+    "VAT",
+    "GST",
+    "Consumption Tax",
+    "Value Added Tax",
+    "Goods and Services Tax",
+    "Purchase Tax",
+    "Excise Tax",
+    "Service Tax",
+    "Entertainment Tax",
+    "Luxury Tax",
+    "Environmental Tax"
+  ]
+}

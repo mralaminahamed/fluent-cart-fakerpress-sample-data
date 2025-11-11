@@ -1,0 +1,67 @@
+[
+  {
+    "country": "US",
+    "pattern": "(###) ###-####",
+    "weight": 0.4
+  },
+  {
+    "country": "CA",
+    "pattern": "(###) ###-####",
+    "weight": 0.1
+  },
+  {
+    "country": "GB",
+    "pattern": "#### ### ####",
+    "weight": 0.08
+  },
+  {
+    "country": "AU",
+    "pattern": "#### ### ###",
+    "weight": 0.06
+  },
+  {
+    "country": "DE",
+    "pattern": "#### ########",
+    "weight": 0.08
+  },
+  {
+    "country": "FR",
+    "pattern": "## ## ## ## ##",
+    "weight": 0.06
+  },
+  {
+    "country": "IT",
+    "pattern": "### ### ####",
+    "weight": 0.04
+  },
+  {
+    "country": "ES",
+    "pattern": "### ### ###",
+    "weight": 0.04
+  },
+  {
+    "country": "BR",
+    "pattern": "(##) #####-####",
+    "weight": 0.04
+  },
+  {
+    "country": "MX",
+    "pattern": "### ### ####",
+    "weight": 0.03
+  },
+  {
+    "country": "IN",
+    "pattern": "##### #####",
+    "weight": 0.03
+  },
+  {
+    "country": "CN",
+    "pattern": "### #### ####",
+    "weight": 0.02
+  },
+  {
+    "country": "JP",
+    "pattern": "##-####-####",
+    "weight": 0.02
+  }
+]

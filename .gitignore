@@ -1,0 +1,20 @@
+# Fluent Cart FakerPress Sample Data
+# This directory contains sample data for the FakerPress plugin
+
+# Ignore any temporary or generated files
+*.tmp
+*.bak
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any cache or build files
+.cache/
+build/
+
+# Keep all JSON files and documentation
+!*.json
+!README.md
+!.gitignore

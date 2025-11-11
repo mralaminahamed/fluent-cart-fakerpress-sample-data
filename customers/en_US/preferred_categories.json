@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Electronics",
+    "weight": 0.25,
+    "subcategories": ["Smartphones", "Laptops", "Headphones", "Tablets", "Gaming"]
+  },
+  {
+    "name": "Fashion",
+    "weight": 0.20,
+    "subcategories": ["Clothing", "Shoes", "Accessories", "Jewelry", "Bags"]
+  },
+  {
+    "name": "Home & Garden",
+    "weight": 0.18,
+    "subcategories": ["Furniture", "Decor", "Kitchen", "Bathroom", "Garden"]
+  },
+  {
+    "name": "Sports & Outdoors",
+    "weight": 0.15,
+    "subcategories": ["Fitness", "Camping", "Cycling", "Running", "Team Sports"]
+  },
+  {
+    "name": "Books & Media",
+    "weight": 0.12,
+    "subcategories": ["Fiction", "Non-fiction", "Educational", "Audiobooks", "Movies"]
+  },
+  {
+    "name": "Health & Beauty",
+    "weight": 0.10,
+    "subcategories": ["Skincare", "Makeup", "Hair Care", "Supplements", "Wellness"]
+  }
+]

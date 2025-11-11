@@ -1,0 +1,107 @@
+[
+  {
+    "code": "US",
+    "name": "United States",
+    "currency": "USD",
+    "phone_code": "+1",
+    "states_count": 50
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "currency": "CAD",
+    "phone_code": "+1",
+    "states_count": 13
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "currency": "GBP",
+    "phone_code": "+44",
+    "states_count": 0
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "currency": "AUD",
+    "phone_code": "+61",
+    "states_count": 8
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "currency": "EUR",
+    "phone_code": "+49",
+    "states_count": 16
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "currency": "EUR",
+    "phone_code": "+33",
+    "states_count": 18
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "currency": "JPY",
+    "phone_code": "+81",
+    "states_count": 47
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "currency": "BRL",
+    "phone_code": "+55",
+    "states_count": 26
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "currency": "INR",
+    "phone_code": "+91",
+    "states_count": 29
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "currency": "CNY",
+    "phone_code": "+86",
+    "states_count": 31
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "currency": "MXN",
+    "phone_code": "+52",
+    "states_count": 32
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "currency": "EUR",
+    "phone_code": "+39",
+    "states_count": 20
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "currency": "EUR",
+    "phone_code": "+34",
+    "states_count": 17
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "currency": "KRW",
+    "phone_code": "+82",
+    "states_count": 17
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "currency": "EUR",
+    "phone_code": "+31",
+    "states_count": 12
+  }
+]

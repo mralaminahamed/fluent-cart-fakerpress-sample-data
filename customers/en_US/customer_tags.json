@@ -1,0 +1,42 @@
+[
+  {
+    "name": "VIP Customer",
+    "weight": 0.05,
+    "color": "#FFD700"
+  },
+  {
+    "name": "Frequent Buyer",
+    "weight": 0.15,
+    "color": "#32CD32"
+  },
+  {
+    "name": "New Customer",
+    "weight": 0.25,
+    "color": "#87CEEB"
+  },
+  {
+    "name": "Returning Customer",
+    "weight": 0.20,
+    "color": "#FFA500"
+  },
+  {
+    "name": "High Value",
+    "weight": 0.10,
+    "color": "#DC143C"
+  },
+  {
+    "name": "Bulk Buyer",
+    "weight": 0.08,
+    "color": "#8A2BE2"
+  },
+  {
+    "name": "International",
+    "weight": 0.12,
+    "color": "#20B2AA"
+  },
+  {
+    "name": "B2B",
+    "weight": 0.05,
+    "color": "#FF6347"
+  }
+]

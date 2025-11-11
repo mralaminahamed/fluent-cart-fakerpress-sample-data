@@ -1,0 +1,62 @@
+[
+  {
+    "country": "US",
+    "pattern": "#####",
+    "format": "#####",
+    "weight": 0.4
+  },
+  {
+    "country": "US",
+    "pattern": "#####-####",
+    "format": "#####-####",
+    "weight": 0.1
+  },
+  {
+    "country": "CA",
+    "pattern": "[A-Z]# [A-Z]#",
+    "format": "A1A 1A1",
+    "weight": 0.1
+  },
+  {
+    "country": "GB",
+    "pattern": "[A-Z]# [A-Z]#",
+    "format": "SW1A 1AA",
+    "weight": 0.08
+  },
+  {
+    "country": "AU",
+    "pattern": "####",
+    "format": "####",
+    "weight": 0.06
+  },
+  {
+    "country": "DE",
+    "pattern": "#####",
+    "format": "#####",
+    "weight": 0.08
+  },
+  {
+    "country": "FR",
+    "pattern": "#####",
+    "format": "#####",
+    "weight": 0.06
+  },
+  {
+    "country": "IT",
+    "pattern": "#####",
+    "format": "#####",
+    "weight": 0.04
+  },
+  {
+    "country": "ES",
+    "pattern": "#####",
+    "format": "#####",
+    "weight": 0.04
+  },
+  {
+    "country": "BR",
+    "pattern": "#####-###",
+    "format": "#####-###",
+    "weight": 0.04
+  }
+]
