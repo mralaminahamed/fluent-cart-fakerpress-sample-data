@@ -1,0 +1,22 @@
+{
+    "resource": "product_categories",
+    "locales": [
+        "en_US"
+    ],
+    "files": [
+        {
+            "file": "departments.json",
+            "read_by": "Product_Category",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "subsections.json",
+            "read_by": "Product_Category",
+            "locales": [
+                "en_US"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "resource": "products",
+    "locales": [
+        "en_US"
+    ],
+    "files": [
+        {
+            "file": "product_names.json",
+            "read_by": "Product",
+            "locales": [
+                "en_US"
+            ]
+        }
+    ]
+}

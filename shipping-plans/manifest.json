@@ -1,0 +1,15 @@
+{
+    "resource": "shipping-plans",
+    "locales": [
+        "en_US"
+    ],
+    "files": [
+        {
+            "file": "shipping_data.json",
+            "read_by": null,
+            "locales": [
+                "en_US"
+            ]
+        }
+    ]
+}

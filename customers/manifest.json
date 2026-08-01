@@ -1,0 +1,64 @@
+{
+    "resource": "customers",
+    "locales": [
+        "en_US"
+    ],
+    "files": [
+        {
+            "file": "countries.json",
+            "read_by": "Customer",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "currencies.json",
+            "read_by": "Customer",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "customer_tags.json",
+            "read_by": "Customer",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "phone_patterns.json",
+            "read_by": "Customer",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "postcode_patterns.json",
+            "read_by": "Customer",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "preferred_categories.json",
+            "read_by": "Customer",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "preferred_languages.json",
+            "read_by": "Customer",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "states_provinces.json",
+            "read_by": "Customer",
+            "locales": [
+                "en_US"
+            ]
+        }
+    ]
+}

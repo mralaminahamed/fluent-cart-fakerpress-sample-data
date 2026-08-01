@@ -1,0 +1,22 @@
+{
+    "resource": "brands",
+    "locales": [
+        "en_US"
+    ],
+    "files": [
+        {
+            "file": "stems.json",
+            "read_by": "Brand",
+            "locales": [
+                "en_US"
+            ]
+        },
+        {
+            "file": "suffixes.json",
+            "read_by": "Brand",
+            "locales": [
+                "en_US"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "resource": "product_tags",
+    "locales": [
+        "en_US"
+    ],
+    "files": [
+        {
+            "file": "labels.json",
+            "read_by": "Product_Tag",
+            "locales": [
+                "en_US"
+            ]
+        }
+    ]
+}
